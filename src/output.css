@@ -264,6 +264,9 @@
   .row-start-1 {
     grid-row-start: 1;
   }
+  .mx-2 {
+    margin-inline: calc(var(--spacing) * 2);
+  }
   .mx-4 {
     margin-inline: calc(var(--spacing) * 4);
   }
@@ -1245,6 +1248,11 @@
       margin-inline: calc(var(--spacing) * 0);
     }
   }
+  .lg\:mx-24 {
+    @media (width >= 64rem) {
+      margin-inline: calc(var(--spacing) * 24);
+    }
+  }
   .lg\:my-24 {
     @media (width >= 64rem) {
       margin-block: calc(var(--spacing) * 24);
@@ -1308,6 +1316,11 @@
   .lg\:w-1\/2 {
     @media (width >= 64rem) {
       width: calc(1/2 * 100%);
+    }
+  }
+  .lg\:w-2\/5 {
+    @media (width >= 64rem) {
+      width: calc(2/5 * 100%);
     }
   }
   .lg\:grid-cols-1 {
