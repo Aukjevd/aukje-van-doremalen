@@ -609,6 +609,9 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\.\/assets\/pink-white-stripes\.jpg\)\] {
+    background-image: url(./assets/pink-white-stripes.jpg);
+  }
   .bg-\[url\(\/assets\/pink-white-stripes\.jpg\)\] {
     background-image: url(/assets/pink-white-stripes.jpg);
   }
