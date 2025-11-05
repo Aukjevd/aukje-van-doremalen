@@ -1239,6 +1239,11 @@
       margin-inline: calc(var(--spacing) * 0);
     }
   }
+  .lg\:my-24 {
+    @media (width >= 64rem) {
+      margin-block: calc(var(--spacing) * 24);
+    }
+  }
   .lg\:mt-0 {
     @media (width >= 64rem) {
       margin-top: calc(var(--spacing) * 0);
@@ -1252,6 +1257,11 @@
   .lg\:mb-6 {
     @media (width >= 64rem) {
       margin-bottom: calc(var(--spacing) * 6);
+    }
+  }
+  .lg\:ml-24 {
+    @media (width >= 64rem) {
+      margin-left: calc(var(--spacing) * 24);
     }
   }
   .lg\:block {
