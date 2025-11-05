@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rights and Security</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[url(/assets/pink-white-stripes.jpg)] momo-trust-display-regular flex flex-col min-h-screen">
+    <main class="flex-grow">
+    <header id="header" class="sticky top-0 z-50 transition-all duration-300 ease-in-out">
+        <div class="flex justify-between h-20 text-2xl w-4/5 mx-auto ">
+            <div class="self-center relative group">
+                <a class="hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="">PORTFOLIO</a>
+                <div class="opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 ease-in-out absolute flex flex-col gap-2 py-2 px-4 bg-white border border-[#d52b2e] w-80 rounded-md">
+                    <a class="hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="game-dev.html">GAME DEVELOPMENT</a>
+                    <a class="hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="web-dev.html">WEB DEVELOPMENT</a>
+                    <a class="hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="keuze-delen.html">KEUZE DELEN</a>
+                </div>
+            </div>
+            <a class="self-center hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="index.html">HOME</a>
+            <a class="self-center hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="contact.html">CONTACT</a>
+        </div>
+    </header>
+
+    <div class="py-24">
+        <div class="flex justify-between w-4/5 mx-auto">
+            <div class="grid content-center">
+                <h1 class="md:text-7xl text-5xl text-[#d52b2e] italic pb-6 pr-4">RIGHTS AND SECURITY</h1>
+                <p class="md:text-3xl text-2xl">
+                    Het examenonderdeel Rights and Security heb ik met een goed afgerond. 
+                    Tijdens dit vak heb ik veel geleerd over copyright, 
+                    privacywetgevingen en de basisprincipes van cybersecurity. Zo heb ik onder andere kennis opgedaan over cookies, 
+                    auteursrechten, verschillende typen hackers en methoden om data veilig te houden.
+                </p>
+                <br>
+                <p class="md:text-3xl text-2xl">
+                    Tijdens het vak behandelde we: Copyright, Licenses, GDPR, hacking, cybercrime, OpenSSL, cybersecurity en DOMPurify. 
+                </p>
+                <p class="md:text-3xl text-2xl">
+                    Door deze onderwerpen te bestuderen, heb ik inzicht gekregen in zowel de juridische als technische aspecten van digitale veiligheid.                
+                </p>
+            </div>
+            <img class="rounded-4xl ml-12 h-[400px] self-center" src="assets/r-s.png" alt="">
+        </div>
+    </div>
+    </main>
+    
+    <footer class="bg-[#fed9e1] border-t border-[#d52b2e]">
+        <div class="w-4/5 mx-auto md:flex md:justify-between text-xl py-4">
+            <div class="grid grid-flow-col gap-4 content-center">
+                <img src="assets/linkedin.png" alt="">
+                <img class="mx-auto md:mx-0" src="assets/github.png" alt="">
+                <img class="justify-self-end" src="assets/instagram.png" alt="">
+            </div>
+
+            <div class="border-l border-[#d52b2e] pl-4 md:mt-0 mt-6">
+                <div>
+                    <p class="text-[#d52b2e] text-2xl italic">Telefoonnummer</p>
+                    <a href="tel:06 36296931">06 39296931</a>
+                    <p class="text-[#d52b2e] text-2xl italic">Email</p>
+                    <a href="mailto:aukje.doremalen@gmail.com">aukje.doremalen@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script>
+  const header = document.getElementById('header');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+      header.classList.add('bg-[#FFFFFF]/80');
+    } else {
+      header.classList.remove('bg-[#FFFFFF]/80');
+    }
+  });
+</script>
+</body>
+</html>

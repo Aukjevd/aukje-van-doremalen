@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[url(/assets/pink-white-stripes.jpg)] momo-trust-display-regular">
+    <header id="header" class="sticky top-0 z-50 transition-all duration-300 ease-in-out">
+        <div class="flex justify-between h-20 text-2xl w-4/5 mx-auto ">
+            <div class="self-center relative group">
+                <a class="hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="">PORTFOLIO</a>
+                <div class="opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 ease-in-out absolute flex flex-col gap-2 py-2 px-4 bg-white border border-[#d52b2e] w-80 rounded-md">
+                    <a class="hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="game-dev.html">GAME DEVELOPMENT</a>
+                    <a class="hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="web-dev.html">WEB DEVELOPMENT</a>
+                    <a class="hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="keuze-delen.html">KEUZE DELEN</a>
+                </div>
+            </div>
+            <a class="self-center hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="index.html">HOME</a>
+            <a class="self-center hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="contact.html">CONTACT</a>
+        </div>
+    </header>
+
+    <div class="py-24">
+        <div class="w-4/5 mx-auto md:flex">
+           <div>
+                <div>
+                    <h1 class="md:text-7xl text-5xl text-[#d52b2e] italic pb-6">DASHBOARD</h1>
+                    <h2 class="md:text-3xl text-lg text-[#d52b2e] italic pb-6">HTML, TailwindCSS, Laravel, Inertia, Vue.js, PHP, phpMyAdmin, XAMPP</h2>
+                </div>
+
+                <div>
+                    <p class="md:text-3xl text-2xl">
+                        Tijdens dit project heb ik me veel kunnen versterken in Laravel, Object-Oriented Programming en het werken met het Model-View-Controller-principe.
+                    </p>
+                    <br>
+                    <p class="md:text-3xl text-2xl">
+                        Ik heb verschillende modellen, views en controllers ontwikkeld om data efficiënt te beheren en te presenteren. 
+                        Via Inertia en Vue heb ik interactieve componenten gebouwd die direct communiceren met de Laravel-backend. 
+                        De database heb ik opgezet en beheerd met phpMyAdmin, 
+                        waardoor ik meer inzicht kreeg in databasemodellering en relaties tussen tabellen.
+                    </p>
+                </div>
+           </div>
+            <img src="assets/Fixmijnit.png" alt="">
+        </div>
+
+        <hr class="mx-4 my-24 border-t-2 border-[#d52b2e]">
+   
+        <div>
+            <h1 class="md:text-8xl text-5xl text-center italic">Het project</h1>
+            <video class="w-4/5 mx-auto py-20" controls autoplay muted loop>
+                <source src="assets/Ambitie screenrecording 29-10.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="flex flex-row justify-evenly bg-white py-6">
+            <img class="icon transform transition duration-300 hover:scale-110 md:h-16 h-11" src="assets/html.png" alt="">
+            <img class="icon transform transition duration-300 hover:scale-110 md:h-16 h-11" src="assets/tailwindcss.png" alt="">
+            <img class="icon transform transition duration-300 hover:scale-110 md:h-16 h-11" src="assets/laravel.png" alt="">
+            <img class="icon transform transition duration-300 hover:scale-110 md:h-16 h-11" src="assets/vue.png" alt="">
+            <img class="icon transform transition duration-300 hover:scale-110 md:h-16 h-11" src="assets/web.png" alt="">
+            <img class="icon transform transition duration-300 hover:scale-110 md:h-16 h-11" src="assets/phpMyAdmin.png" alt="">
+            <img class="icon transform transition duration-300 hover:scale-110 md:h-16 h-11" src="assets/xampp.png" alt="">
+        </div>
+
+        <div class="mx-24 pt-20 pb-12 flex items-center gap-6">
+
+            <button id="scroll-left" class="shrink-0">
+                <img class="cursor-pointer transform transition duration-300 hover:scale-110" src="assets/arrow-left.png" alt="">
+            </button>
+
+            <div
+                id="scroll-container" 
+                class="flex gap-12 overflow-x-scroll snap-x snap-mandatory scroll-smooth px-6 no-scrollbar"
+            >
+                <div class="shrink-0 w-2/5 snap-start py-8 px-6 bg-white rounded-md mb-4">
+                    <h1 class="md:text-6xl text-4xl text-[#d52b2e] italic pb-6">Laravel-backend</h1>
+                    <p class="md:text-3xl text-2xl">
+                        Tijdens dit project lag mijn focus voornamelijk op de back-end ontwikkeling in Laravel. Ik heb me verdiept in het opzetten van models, controllers en routing, en in het efficiënt structureren van de applicatie volgens het MVC-principe. Dit hielp me om een overzichtelijke en onderhoudbare codebase te creëren.
+                    </p>
+                </div>
+                <div class="shrink-0 w-2/5 snap-start py-8 px-6 bg-white rounded-md mb-4">
+                    <h1 class="md:text-6xl text-4xl text-[#d52b2e] italic pb-6">Controllers</h1>
+                    <p class="md:text-3xl text-2xl">
+                        Een belangrijk onderdeel was de DashboardController, waarin ik data ophaal en verwerk voordat deze via Inertia naar de Vue-frontend wordt gestuurd. Door gebruik te maken van services, zoals de JiraService, heb ik geleerd om logica op een gestructureerde manier te scheiden van de controllers, wat de code beter schaalbaar en herbruikbaar maakt.
+                    </p>
+                </div>
+                <div class="shrink-0 w-2/5 snap-start py-8 px-6 bg-white rounded-md mb-4">
+                    <h1 class="md:text-6xl text-4xl text-[#d52b2e] italic pb-6">Authenticatie en API</h1>
+                    <p class="md:text-3xl text-2xl">
+                        Daarnaast heb ik gewerkt aan authenticatie, dataverbindingen en API-integraties, waardoor ik beter begrijp hoe verschillende lagen binnen een webapplicatie samenwerken. Ook heb ik de database ontworpen en beheerd via phpMyAdmin, wat me veel inzicht gaf in relaties tussen tabellen en datamodellering.
+                    </p>
+                </div>
+                <div class="shrink-0 w-2/5 snap-start py-8 px-6 bg-white rounded-md mb-4">
+                    <h1 class="md:text-6xl text-4xl text-[#d52b2e] italic pb-6">Scrum aanpak</h1>
+                    <p class="md:text-3xl text-2xl">
+                        Qua projectaanpak heb ik gewerkt met sprints, reviews en een scrumboard om mijn voortgang te plannen en bij te houden. Deze manier van werken hielp me om gestructureerd te blijven, prioriteiten te stellen en tussentijds feedback te verwerken. Hierdoor kon ik mijn code en workflow steeds verder verbeteren.
+                    </p>
+                </div>
+            </div>  
+            
+            <button id="scroll-right" class="shrink-0">
+                <img class="cursor-pointer transform transition duration-300 hover:scale-110" src="assets/arrow-right.png" alt="">
+            </button>
+
+        </div>
+    </div>
+    
+    <footer class="bg-[#fed9e1] border-t border-[#d52b2e]">
+        <div class="w-4/5 mx-auto md:flex md:justify-between text-xl py-4">
+            <div class="grid grid-flow-col gap-4 content-center">
+                <img src="assets/linkedin.png" alt="">
+                <img class="mx-auto md:mx-0" src="assets/github.png" alt="">
+                <img class="justify-self-end" src="assets/instagram.png" alt="">
+            </div>
+
+            <div class="border-l border-[#d52b2e] pl-4 md:mt-0 mt-6">
+                <div>
+                    <p class="text-[#d52b2e] text-2xl italic">Telefoonnummer</p>
+                    <a href="tel:06 36296931">06 39296931</a>
+                    <p class="text-[#d52b2e] text-2xl italic">Email</p>
+                    <a href="mailto:aukje.doremalen@gmail.com">aukje.doremalen@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script>
+  const header = document.getElementById('header');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+      header.classList.add('bg-[#FFFFFF]/80');
+    } else {
+      header.classList.remove('bg-[#FFFFFF]/80');
+    }
+  });
+
+
+  const scrollContainer = document.getElementById("scroll-container");
+    document.getElementById("scroll-left").addEventListener("click", () => {
+    scrollContainer.scrollBy({ left: -window.innerWidth / 3, behavior: "smooth" });
+    });
+    document.getElementById("scroll-right").addEventListener("click", () => {
+    scrollContainer.scrollBy({ left: window.innerWidth / 3, behavior: "smooth" });
+    });
+</script>
+</body>
+</html>

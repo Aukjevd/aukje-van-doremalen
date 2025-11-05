@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <script src="https://unpkg.com/alpinejs" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-[url(/assets/pink-white-stripes.jpg)]">
+
+<div class="h-screen w-4/5 mx-auto momo-trust-display-regular">
+    <header id="header" class="sticky top-0 z-50 transition-all duration-300 ease-in-out">
+        <div class="flex justify-between h-20 text-2xl">
+            <div class="self-center relative group">
+                <a class="hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="">PORTFOLIO</a>
+                <div class="opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 ease-in-out absolute flex flex-col gap-2 py-2 px-4 bg-white border border-[#d52b2e] w-80 rounded-md">
+                    <a class="hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="game-dev.html">GAME DEVELOPMENT</a>
+                    <a class="hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="web-dev.html">WEB DEVELOPMENT</a>
+                    <a class="hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="keuze-delen.html">KEUZE DELEN</a>
+                </div>
+            </div>
+            <a class="self-center hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="index.html">HOME</a>
+            <a class="self-center hover:text-[#d52b2e] transition-colors duration-300 ease-in-out" href="contact.html">CONTACT</a>
+        </div>
+    </header>
+    <div class="bg-white md:h-4/5 rounded-xl py-12 md:grid md:grid-cols-3 md:px-10 px-6">
+
+        <div class="px-6 pb-15 col-span-2 md:col-start-2">
+            <div class="mx-auto max-w-2xl text-center">
+                <h2 class="md:text-9xl text-5xl py-5">Contact</h2>
+            </div>
+            <form action="" method="POST" class="mx-auto mt-10 max-w-xl sm:mt-7">
+                <div class="grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2">
+                    <div>
+                        <label for="first-name" class="block text-lg italic">Voornaam</label>
+                        <div>
+                            <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#fed9e1]" placeholder="Voornaam">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="last-name" class="block text-lg italic">Achternaam</label>
+                        <div>
+                            <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#fed9e1]" placeholder="Achternaam">
+                        </div>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="email" class="block text-lg italic">Email</label>
+                        <div>
+                            <input type="email" name="email" id="email" autocomplete="email" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#fed9e1]" placeholder="voorbeeld@gmail.com">
+                        </div>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="message" class="block text-lg italic">Bericht</label>
+                        <div>
+                            <textarea name="message" id="message" rows="4" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#fed9e1]" placeholder="Uw bericht..."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid place-content-center mt-10">
+                    <div>
+                        <a type="submit" class="border rounded-md border-[#d52b2e] text-[#d52b2e] md:text-4xl text-2xl py-2 px-9 justify-self-center hover:bg-[#d52b2e] hover:text-white hover:border-white transition-colors duration-300 ease-in-out">Versturen</a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+        <footer class="bg-[#fed9e1] h-full rounded-md md:col-start-1 md:row-start-1 md:p-0 p-4">
+            <div class="mx-auto text-xl py-4 h-full grid place-content-center">
+                <div class="grid grid-flow-col gap-4 content-center">
+                    <img src="assets/linkedin.png" alt="">
+                    <img class="mx-auto" src="assets/github.png" alt="">
+                    <img class="justify-self-end" src="assets/instagram.png" alt="">
+                </div>
+
+                <div class="border-l border-[#d52b2e] pl-4 mt-6">
+                    <div>
+                        <p class="text-[#d52b2e] text-2xl italic">Telefoonnummer</p>
+                        <a href="tel:06 36296931">06 39296931</a>
+                        <p class="text-[#d52b2e] text-2xl italic">Email</p>
+                        <a href="mailto:aukje.doremalen@gmail.com">aukje.doremalen@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</div>
+
+<script>
+  const header = document.getElementById('header');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+      header.classList.add('bg-[#FFFFFF]/80');
+    } else {
+      header.classList.remove('bg-[#FFFFFF]/80');
+    }
+  });
+</script>
+</body>
+</html>
